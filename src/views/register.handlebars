@@ -1,0 +1,50 @@
+<section class="d-flex">
+    <article id="register" class="w-50 text-center " >
+        <h1>Register form</h1>
+        <form id="form">
+            <div class="mb-3">
+                <input required type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="email">
+            </div>
+            <div class="mb-3">
+                <input required type="password" class="form-control" id="password" placeholder="password">
+            </div>
+            <button type="submit" class="btn btn-primary" id="registerButton">Register</button>
+        </form>
+    </article>
+    <article id="users" class="d-flex flex-wrap w-50"></article>
+</section>
+<script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+<script>  const socket = io()
+    socket.on('users', data => {
+        let template = ''
+        template = data.map((e) => ` 
+                 <div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                            <h5 class="card-title">${e.email}</h5>
+                            <p class="card-text">${e.password}</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                </div>
+            
+            `)
+        document.getElementById('users').innerHTML = template
+    })
+    const form = document.querySelector('#form')
+    const register = document.getElementById('registerButton')
+    const validateForm = (e) => {
+        e.preventDefault();
+        const email = document.getElementById('email').value
+        const password = document.getElementById('password').value
+        if(email.length === 0 || password.length === 0){
+            alert('complete form')
+        }else{
+             socket.emit('register', {email, password})
+            alert('usuario registrado correctamente')
+            form.reset()
+        }
+       
+    }
+    register.addEventListener('click', validateForm)
+    
+</script>

@@ -1,0 +1,19 @@
+
+   {{#if user.id}}
+   <h1>id : {{user.id}}</h1>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="card" style="width: 18rem;">
+            <img src="{{user.photo}}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">email : {{user.email}}</h5>
+                <h5 class="card-title">role : {{user.role}}</h5>
+                <h5 class="card-title"> password : {{user.password}}</h5>
+            </div>
+        </div>
+        
+    </div>
+</div>
+{{else}}
+<h1>user not found</h1>
+{{/if}}

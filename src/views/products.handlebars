@@ -1,0 +1,65 @@
+<div class="container">
+    <section class="row justify-content-center">
+        <article id="register" class="w-50 text-center">
+            <h1>Product form</h1>
+            <form id="form">
+                <div class="mb-3">
+                    <input required type="text" class="form-control" id="title" placeholder="title">
+                </div>
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="category" placeholder="category">
+                </div>
+                <div class="mb-3">
+                    <input type="number" class="form-control" id="price" placeholder="price">
+                </div>
+                <div class="mb-3">
+                    <input type="number" class="form-control" id="stock" placeholder="stock">
+                </div>
+                <button type="submit" class="btn btn-primary" id="prodButton">create</button>
+            </form>
+        </article>
+        <article id="products" class="d-flex flex-wrap w-50"></article>
+    </section>
+</div>
+<script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+<script>
+    const socket = io();
+    
+    socket.on('products', data => {
+        const productsContainer = document.getElementById('products');
+        productsContainer.innerHTML = ''; // Clear previous products
+        
+        data.forEach(product => {
+            const card = document.createElement('div');
+            card.classList.add('col-md-4');
+            card.innerHTML = `
+                <div class="card text-center mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Title: ${product.title}</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Category: ${product.category}</li>
+                        <li class="list-group-item">Price: ${product.price}</li>
+                        <li class="list-group-item">Stock: ${product.stock}</li>
+                    </ul>
+                </div>`;
+            productsContainer.appendChild(card);
+        });
+    });
+    
+    const form = document.querySelector('#form');
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const title = document.getElementById('title').value;
+        const category = document.getElementById('category').value;
+        const price = document.getElementById('price').value;
+        const stock = document.getElementById('stock').value;
+        if (title.length === 0) {
+            alert('Insert title');
+        } else {
+            socket.emit('registerProd', { title, category, stock, price });
+            alert('Producto registrado correctamente');
+            form.reset();
+        }
+    });
+</script>

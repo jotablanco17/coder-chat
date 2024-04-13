@@ -1,0 +1,17 @@
+<h1 class="text-center">users</h1>
+
+
+<div class="container">
+    <div class="row justify-content-center">
+        {{#each all}}
+        <div class="card" style="width: 18rem;">
+            <img src="{{this.photo}}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">email : {{this.email}}</h5>
+                <a href="/users/{{this.id}}" class="btn btn-primary">detail</a>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+
+</div>

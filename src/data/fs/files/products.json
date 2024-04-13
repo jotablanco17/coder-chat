@@ -1,0 +1,322 @@
+[
+  {
+    "id": "24ca1d1200b640b0df5666a3",
+    "photo": "bocaremera.png",
+    "title": "boca",
+    "category": "deportivo",
+    "price": 250,
+    "stock": 38
+  },
+  {
+    "id": "d15e552c8f283e7088a99047",
+    "photo": "remerariber.png",
+    "title": "riber",
+    "category": "deportivo",
+    "price": 500,
+    "stock": 10
+  },
+  {
+    "id": "950fcdc68e17165bf86b239a",
+    "photo": "remera racing.png",
+    "title": "racing",
+    "category": "deportivo",
+    "price": 300,
+    "stock": 20
+  },
+  {
+    "id": "69e78f34d3802097dd546474",
+    "photo": "",
+    "title": "independiente",
+    "category": "deportivo",
+    "price": 200,
+    "stock": 38
+  },
+  {
+    "id": "c5dab2cf5789338c424eab88",
+    "photo": "jordan.png",
+    "title": "pantalon jordan",
+    "category": "pantalones",
+    "price": 150,
+    "stock": 12
+  },
+  {
+    "id": "0d2e1ab6a74d9f37a511c364",
+    "photo": "bmw.png",
+    "title": "pantalon bmw",
+    "category": "pantalones",
+    "price": 70,
+    "stock": 38
+  },
+  {
+    "id": "d64d3fbdd23b2a859a8361ff",
+    "photo": "medias.png",
+    "title": "media",
+    "category": "medias",
+    "price": 20,
+    "stock": 18
+  },
+  {
+    "id": "577fda377cbe4446c4fc9f04",
+    "photo": "",
+    "title": "abrigo",
+    "category": "ropa",
+    "price": 40,
+    "stock": 50
+  },
+  {
+    "id": "95c440c7fbaa372deff16a96",
+    "photo": "gap.png",
+    "title": "buzo GAP",
+    "category": "buzos",
+    "price": 30,
+    "stock": 12
+  },
+  {
+    "id": "73cfb08d4acbefe4c2459579",
+    "photo": "",
+    "title": "buzo shark",
+    "category": "buzos",
+    "price": 1200,
+    "stock": 10
+  },
+  {
+    "id": "4033231d1bc2a58ce51daa64",
+    "photo": "max90.png",
+    "title": "max 90",
+    "category": "zapatillas",
+    "price": 20,
+    "stock": 60
+  },
+  {
+    "id": "a56b4367ca3ebbe328a65dd8",
+    "photo": "converse.png",
+    "title": "converse",
+    "category": "zapatillas",
+    "price": 500,
+    "stock": 10
+  },
+  {
+    "id": "2c2ba0b6c962c766220da366",
+    "photo": "air.png",
+    "title": "adidas air",
+    "category": "zapatillas",
+    "price": 300,
+    "stock": 20
+  },
+  {
+    "id": "76f9fe877148743a2663acb3",
+    "photo": "",
+    "title": "yeezy",
+    "category": "zapatillas",
+    "price": 200,
+    "stock": 38
+  },
+  {
+    "id": "40fff710c5c955638bd3511a",
+    "photo": "media.png",
+    "title": "media roja",
+    "category": "medias",
+    "price": 150,
+    "stock": 12
+  },
+  {
+    "id": "797f3532a46c20d970ba75a1",
+    "photo": "ojota.png",
+    "title": "ojota air",
+    "category": "",
+    "price": 70,
+    "stock": 38
+  },
+  {
+    "id": "a4da83950bd86976fec0cd89",
+    "photo": "ojota.png",
+    "title": "ojota adidas",
+    "category": "ojotas",
+    "price": 20,
+    "stock": 18
+  },
+  {
+    "id": "fdb5798aefd6b685c44edd97",
+    "photo": "",
+    "title": "abrigo blanco",
+    "category": "abrigos",
+    "price": 40,
+    "stock": 50
+  },
+  {
+    "id": "2f0457b18f9624407451a9b1",
+    "photo": "abrigo.png",
+    "title": "abrigo verde",
+    "category": "abrigos",
+    "price": 30,
+    "stock": 12
+  },
+  {
+    "id": "c034e86b73e00b59c3a7267f",
+    "photo": "",
+    "title": "abrigo azul",
+    "category": "abrigos",
+    "price": 1200,
+    "stock": 10
+  },
+  {
+    "id": "fd4bf122e1f129fb867d5c91",
+    "photo": "zapatos.png",
+    "title": "Zapatos elegantes",
+    "category": "Zapatos",
+    "price": 350,
+    "stock": 15
+  },
+  {
+    "id": "3dc28947780402dff436c737",
+    "photo": "camisa.png",
+    "title": "Camisa de vestir",
+    "category": "Ropa",
+    "price": 180,
+    "stock": 25
+  },
+  {
+    "id": "f4a0fe4aff8b4c61c6538d1e",
+    "photo": "gorra.png",
+    "title": "Gorra deportiva",
+    "category": "Accesorios",
+    "price": 25,
+    "stock": 30
+  },
+  {
+    "id": "95760287fddd797c91f24603",
+    "photo": "reloj.png",
+    "title": "Reloj inteligente",
+    "category": "Tecnología",
+    "price": 500,
+    "stock": 8
+  },
+  {
+    "id": "a8f26f5359cce04ae6c44582",
+    "photo": "mochila.png",
+    "title": "Mochila resistente",
+    "category": "Accesorios",
+    "price": 120,
+    "stock": 20
+  },
+  {
+    "id": "8ceec5cd6ce2157837993e5e",
+    "photo": "",
+    "title": "Bufanda de lana",
+    "category": "Accesorios",
+    "price": 40,
+    "stock": 35
+  },
+  {
+    "id": "603891d72135f672fdf37001",
+    "photo": "sweater.png",
+    "title": "Suéter de invierno",
+    "category": "Ropa",
+    "price": 250,
+    "stock": 12
+  },
+  {
+    "id": "6507ec18a89cc617d018ae9d",
+    "photo": "bolso.png",
+    "title": "Bolso de viaje",
+    "category": "Accesorios",
+    "price": 180,
+    "stock": 18
+  },
+  {
+    "id": "77015c3a58829150caecbb08",
+    "photo": "",
+    "title": "Pantalones de cuero",
+    "category": "Pantalones",
+    "price": 300,
+    "stock": 10
+  },
+  {
+    "id": "af86c2b670007a70bafe8dc1",
+    "photo": "chaqueta.png",
+    "title": "Chaqueta de moto",
+    "category": "Ropa",
+    "price": 400,
+    "stock": 7
+  },
+  {
+    "id": "601d698bdba265ae5eed53cc",
+    "photo": "auriculares.png",
+    "title": "Auriculares inalámbricos",
+    "category": "Tecnología",
+    "price": 150,
+    "stock": 15
+  },
+  {
+    "id": "d7178c1d8f0c0dca31ba6dd9",
+    "photo": "lampara.png",
+    "title": "Lámpara de escritorio",
+    "category": "Hogar",
+    "price": 50,
+    "stock": 25
+  },
+  {
+    "id": "274a84f64a761f77583f9d2e",
+    "photo": "",
+    "title": "Calcetines de algodón",
+    "category": "Medias",
+    "price": 10,
+    "stock": 50
+  },
+  {
+    "id": "1a3d3aea084772d35ced5602",
+    "photo": "zapatillas.png",
+    "title": "Zapatillas deportivas",
+    "category": "Zapatillas",
+    "price": 180,
+    "stock": 20
+  },
+  {
+    "id": "4d18191e377e7a25e906410d",
+    "photo": "camara.png",
+    "title": "Cámara digital",
+    "category": "Tecnología",
+    "price": 700,
+    "stock": 5
+  },
+  {
+    "id": "788e915d0fe891d166bca5cc",
+    "photo": "mesa.png",
+    "title": "Mesa de comedor",
+    "category": "Hogar",
+    "price": 350,
+    "stock": 10
+  },
+  {
+    "id": "17e014066f34531f1fcdc84a",
+    "photo": "silla.png",
+    "title": "Silla ergonómica",
+    "category": "Hogar",
+    "price": 150,
+    "stock": 15
+  },
+  {
+    "id": "a8ab171128f787114696530b",
+    "photo": "",
+    "title": "Libreta de cuero",
+    "category": "Papelería",
+    "price": 30,
+    "stock": 40
+  },
+  {
+    "id": "0f93a059a30be30795da0652",
+    "photo": "gafas.png",
+    "title": "Gafas de sol",
+    "category": "Accesorios",
+    "price": 80,
+    "stock": 25
+  },
+  {
+    "id": "6ee772c73d8c4e8818a8b574",
+    "photo": "bolsa.png",
+    "title": "Bolsa de deporte",
+    "category": "Accesorios",
+    "price": 60,
+    "stock": 30
+  }
+]
